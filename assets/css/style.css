@@ -72,10 +72,14 @@ body{
     }
 /* header */
 header{
-    padding:10px;
-    
-    text-align:center;
-    background-color:#0088aa;
+    background: linear-gradient(180deg, rgba(0, 160, 198, 1) 0%, rgba(3, 109, 134, 1) 68%);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 3px 3px #444;
+    margin-bottom: 1.5em;
+    padding: 2em 1.5em;
     
     
     
@@ -110,14 +114,12 @@ nav li,a{
 /* main */
 main{
     margin-top:10px;
+    background-color: #fff;
+    box-shadow: 0 3px 3px #444;
+    padding: 2em 1em;
+    margin-bottom: 1.5em;
 }
 
-
-article{
-    color:rgb(201, 198, 198);
-    text-align:start;
-    margin:10px 0 20px;
-}
 code{
     background-color: #e3e3e3;
     border: 1px solid #969494;
@@ -200,11 +202,13 @@ aside div{
 
 /* footer */
 footer{
-    background-color:#005566;
-    margin-top:20px;
-    text-align:center;
-    color:white;
+    background: linear-gradient(0deg, rgba(53, 53, 53, 1) 0%, rgba(5, 85, 103, 1) 68%);
+    box-shadow: 0 3px 3px #444;
+    color: #f0f0f0;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2rem;
 }
 #emailepicode{
-    color:rgb(114, 12, 114);
+    color:fuchsia;
 }
