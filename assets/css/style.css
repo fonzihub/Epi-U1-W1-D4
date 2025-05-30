@@ -1,0 +1,189 @@
+/* generics */
+main,section,aside,footer{
+
+  background-color:white;
+  padding:0.7em;             
+   
+}
+h2{
+    font-size:xx-large;
+}
+h3{
+    text-transform:uppercase;
+    font-size:larger;
+    text-align:center;
+}
+
+button{
+    border-radius:5px;
+border:solid 1px;
+}
+
+main p{margin:20px 0;  }
+
+/* ul,ol,li */
+ul {
+  list-style-type: disc;   
+  padding-left: 40px;      
+  margin: 1em 0;          
+  margin: 1em 0;           
+}
+ol {
+  list-style-type: decimal;
+  padding-left: 40px;
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: 0.5em;    
+}
+
+
+
+p span{
+    color:rgb(177, 26, 177)
+}
+
+
+i{
+margin:5px;
+}
+
+/* body */
+
+body{
+    
+    box-sizing: border-box;
+    font-family:"Poppins",serif;
+    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0.7em;
+    background-image:url(img/sfondo.png);
+    
+    }
+/* header */
+header{
+    padding:10px;
+    
+    text-align:center;
+    background-color:#0088aa;
+    
+    
+    
+    
+}
+
+#logo-header{
+    width:50%;
+    margin-bottom:20px
+}
+header p{
+    color:white;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    
+}
+/* navigazione */
+header ul{
+    padding:0;
+}
+nav li,a{
+    list-style-type:none;
+    color:white;
+    text-transform:uppercase;
+    text-decoration:none;
+    text-align:center;
+    padding:0;
+}
+
+
+
+/* main */
+main{
+    margin-top:10px;
+}
+
+
+article{
+    color:rgb(201, 198, 198);
+    text-align:start;
+    margin:10px 0 20px;
+}
+
+
+
+
+/* table */
+tr{
+    line-height:30px;
+    padding:20px;
+    
+    
+}
+td{
+    text-align:center;
+    padding:5px;
+    border: solid 1px 0 rgb(244, 241, 241);
+}
+
+caption{
+    font-weight:bold;
+}
+thead{
+    background-color:#3c67c5;
+}
+table{
+    margin-left:auto;
+margin-right:auto;
+
+
+}
+
+
+/* video */
+iframe{
+    width:100%;
+    border-radius:20px;
+}
+/* sezione novita */
+.sezione-novita{
+        background-color: #e4dddf;
+    text-align: center;
+    padding: 50px;
+}
+aside div{   
+    background-color: #e4dddf;
+    text-align: center;
+    margin:10px;
+}
+.link-aside{
+    text-align:start;
+    padding:10px;
+  color: rgb(0, 163, 204);
+  text-decoration: underline;
+  cursor:pointer;
+
+  
+}
+.categorie{
+    text-align:start;
+    padding:0;
+    margin-left:10px;
+}
+.data{
+    text-align:end;
+    padding:20px;
+}
+
+
+/* footer */
+footer{
+    background-color:#005566;
+    margin-top:20px;
+    text-align:center;
+    color:white;
+}
+#emailepicode{
+    color:rgb(114, 12, 114);
+}
